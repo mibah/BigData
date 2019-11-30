@@ -77,3 +77,5 @@ NL = readtable('/Users/localuser/Documents/flight/results/collection/onlineAnaly
 >> plotMe(AT)
 
 Where the example loads data for all countries that have been summarized before be means of the comprise.sh file. Consequently, a scatter plot is created by the function plotMe. The folder /img shows the scatter plots for the avg temperatur in celsius for each country for the period of time the that is spanned by the smallest and larges timestamp of the data. The concrete timestamps are mapped to a linear sequence of integers and can be seen in the summary file in a plain format.
+
+HINT: The image in the repo shows the filestructure of the project folder
