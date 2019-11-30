@@ -52,10 +52,11 @@ Visualization is done by printing the results of the online and offline analysis
 
 ###How to use###
 1. Use the CountryBuilder in order to create a list of relevant cities that you want to gather weather data for
+Then create a folder where you put the folder preprocessing in.
 2. Use the DataCollector by passing it two arguments. First, the output from step one and second the number of calls you want to perform for each city. Example
 java -jar DataCollector.jar "/Users/localuser/Documents/flight/preprocessing/cityListPerCountry/" 2
 This data is preassumed and stored in the folder preprocessing
-3. Once data is collected it is stored in the /data folder
+3. Once data is collected it should be stored in the /data folder within the project folder
 4. Now analysis can start by first performing offline analysis on the data by calling for example:
 java -jar Analysis.jar /Users/localuser/Documents/testFolder off /Users/localuser/Documents/testFolder/data/westernEuropeWeather0.json
 where the Analyisis.jar is the application, the first parameter the basepath of the project, the second indicates that offline analysis is performed and the last is the parameter to the dataset that shall be used for offline analysis.
